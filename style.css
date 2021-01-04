@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 h1{
     font-size: 50px;
 }
@@ -10,11 +13,128 @@ h1{
     float:left;
     margin-right: 5%;
     text-align: center;
+    margin-top: 85px;
+    margin-left: 82px;
 }
 .right{
-    width: 50%;
+    width: 30%;
     float: left;
+    height: 300px;
+    margin: 25px 0px 0px 189px
 }
 .right img{
-    width:100%;
+    width: 400px;
+    height: 400px;
+}
+.top-banner{
+    background-image: url("./images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+}
+
+
+.link-btn{
+    color: white;
+    background-color: cornflowerblue;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+.bottom-banner{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.lefta{
+    width: 30%;
+    float: left;
+    height: 300px;
+    margin: 25px 0px 0px 189px
+}
+.lefta img{
+    width: 400px;
+    height: 400px;
+}
+.rightb{
+    width:40%;
+    float:left;
+    margin-right: 5%;
+    text-align: center;
+    margin-top: 85px;
+    margin-left: 82px;
+}
+
+
+.download{
+    color: rgb(223, 43, 19);
+    background-color: cornflowerblue;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
+
+
+.lastsection{
+    background-image: url("./images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ff{
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+.sectionone{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    margin-right: 4%;
+    text-align: justify;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+.secitontwo{
+    width: 40%;
+    float: left;
+    margin-right: 8%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#rr{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, orange, red);
+    border-image-slice: 1;
+}
+
+#tt{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, rgb(68, 0, 255), rgb(68, 189, 236));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    
 }
